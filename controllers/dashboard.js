@@ -1,33 +1,17 @@
 'use strict';
 
 const logger = require('../utils/logger');
+const BookmarkCollection = require('../models/bookmarks-store.js');
 
-const sonatas = {
-  title: 'Sonatas',
-  songs: [
-    {
-      title: 'Piano Sonata No. 3',
-      artist: 'Beethoven',
-    },
-    {
-      title: 'Piano Sonata No. 7',
-      artist: 'Beethoven',
-    },
-    {
-      title: 'Piano Sonata No. 10',
-      artist: 'Beethoven',
-    },
-  ],
-};
 
 const dashboard = {
   index(request, response) {
     logger.info('dashboard rendering');
     const viewData = {
       title: 'Keiths Bookmarks Dashboard',
-      bookmarks: sonatas,
+      bookmarks: BookmarkCollection,
     };
-    logger.info('about to render', sonatas);
+    logger.info('about to render', BookmarkCollection);
     response.render('dashboard', viewData);
   },
 };
