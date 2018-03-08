@@ -11,18 +11,12 @@ BookmarkCollection : require('./bookmarks-store.json').BookmarkCollection,
   },
   
   getBookmark(id){
-    let foundBookmark = null;
-    for(let bookmark of this.BookmarkCollection){
-      if(id==bookmark.id){
-        foundBookmark=bookmark;
-      }
-    }
-    return foundBookmark;
+    return _.find(this.BookmarkCollection, {id:id});
   },
   
   removeInner(id, songId){
     const inner = this.getBookmark(id);
-    // _.remove(inner.songs, {id:songId});
+    _.remove(inner.songs, {id:songId});
   },
   
   
