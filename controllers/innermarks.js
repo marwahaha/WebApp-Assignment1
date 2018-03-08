@@ -13,6 +13,12 @@ const innermarks = {
     };
     response.render('innermarks', viewData);
   },
-};
+      
+      
+  deleteinnermark(request, response){
+    const innerId= request.params.id;
+    const songId = request.params.songid;
+    logger.debug('Deleting song ${songId} from Playlist $
+  
 
 module.exports = innermarks;
