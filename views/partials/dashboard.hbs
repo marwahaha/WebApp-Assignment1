@@ -1,0 +1,10 @@
+{{#each bookmarks}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    <a href="/innermarks/{{id}}" class="ui icon button"> View </a>
+    <br>
+    <a href="/dashboard/deletebookmark/{{id}}" class="ui icon button"><i class="large icon trash"></i></a>
+  </section>
+{{/each}}
