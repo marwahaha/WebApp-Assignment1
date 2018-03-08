@@ -1,5 +1,7 @@
 'use strict';
 
+const _ = require('lodash');
+
 const bookmarkStore = {
 
 BookmarkCollection : require('./bookmarks-store.json').BookmarkCollection,
@@ -20,6 +22,7 @@ BookmarkCollection : require('./bookmarks-store.json').BookmarkCollection,
   
   removeInner(id, songId){
     const inner = this.getBookmark(id);
+    // _.remove(inner.songs, {id:songId});
   },
   
   
