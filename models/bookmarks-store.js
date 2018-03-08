@@ -5,7 +5,7 @@ const bookmarkStore = {
 BookmarkCollection : require('./bookmarks-store.json').BookmarkCollection,
   
   getAllBookmarks(){
-    return this.BookmarkCllection;
+    return this.BookmarkCollection;
   },
   
   getBookmark(id){
