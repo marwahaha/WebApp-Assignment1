@@ -3,15 +3,15 @@
 const logger = require('../utils/logger');
 const bookmarkStore = require('../models/bookmarks-store.js');
 
-const innermark = {
+const innermarks = {
   index(request, response) {
     const innermarksId = request.params.id;
     logger.debug('Bookmark id =', innermarksId);
     const viewData = {
       title: 'Bookmark Contents',
     };
-    response.render('innermark', viewData);
+    response.render('innermarks', viewData);
   },
 };
 
-module.exports = innermark;
+module.exports = innermarks;
