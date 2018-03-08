@@ -5,6 +5,8 @@ const BookmarkCollection = require('../models/bookmarks-store.js');
 
 const bookmarks = {
   index(request, response) {
+    const bookmarksId = request.params.id;
+    logger.debug('Bookmarks id = ', bookmarksId);
     const viewData = {
       title: 'Playlist',
     };
