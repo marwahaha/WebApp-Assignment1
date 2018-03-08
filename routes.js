@@ -13,5 +13,6 @@ router.get('/dashboard', dashboard.index);
 router.get('/about', about.index);
 router.get('/innermarks/:id', innermarks.index);
 router.get('/bookmarks/:id/deleteinnermark/:songid', innermarks.deleteinnermark);
+router.get('/dashboard/deletebookmark/:id', dashboard.deletebookmark);
 
 module.exports = router;

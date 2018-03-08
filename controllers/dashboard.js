@@ -18,9 +18,8 @@ const dashboard = {
   deletebookmark(request, response){
     const bookmarkid= request.params.id;
     logger.debug('Deleting bookmark ${bookmarkid}');
-    bookmarkStore.removeBookmar(innerId, songId);
-    response.redirect('/innermarks/' + innerId);
-    
+    bookmarkStore.removeBookmark(bookmarkid);
+    response.redirect('/dashboard/');
   },
   
   
