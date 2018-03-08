@@ -20,5 +20,5 @@ const routes = require('./routes');
 app.use('/', routes);
 
 const listener = app.listen(process.env.PORT, function () {
-  logger.info(`glitch-playlist1 started on port ${listener.address().port}`);
+  logger.info(`Keiths Bookmark Glitch project started on port ${listener.address().port}`);
 });
