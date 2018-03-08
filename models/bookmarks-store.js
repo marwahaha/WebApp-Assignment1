@@ -17,6 +17,14 @@ BookmarkCollection : require('./bookmarks-store.json').BookmarkCollection,
     }
     return foundBookmark;
   },
+  
+  removeInner(id, songId){
+    const inner = this.getBookmark(id);
+  },
+  
+  
+  
+  
 };
 
 module.exports = bookmarkStore;
