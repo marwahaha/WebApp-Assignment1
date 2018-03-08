@@ -19,6 +19,10 @@ BookmarkCollection : require('./bookmarks-store.json').BookmarkCollection,
     _.remove(inner.songs, {id:songId});
   },
   
+  removeBookmark(id) {
+  _.remove(this.BookmarkCollection, { id: id });
+},
+  
   
   
   

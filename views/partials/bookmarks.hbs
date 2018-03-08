@@ -3,6 +3,7 @@
     <tr>
       <th>Song</th>
       <th>Artist</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -15,7 +16,7 @@
           {{artist}}
         </td>
          <td>
-          <a href="/bookmarks/{{../bookmarks.id}}/deleteinnermark/{{id}}" class="ui tiny red button">Delete Song</a>
+          <a href="/bookmarks/{{../bookmarks.id}}/deleteinnermark/{{id}}"><i class="large icon trash"></i></a>
         </td>
       </tr>
     {{/each}}

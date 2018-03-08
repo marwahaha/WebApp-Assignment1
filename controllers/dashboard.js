@@ -14,6 +14,17 @@ const dashboard = {
     logger.info('about to render', bookmarkStore.getAllBookmarks());
     response.render('dashboard', viewData);
   },
+  
+  deletebookmark(request, response){
+    const bookmarkid= request.params.id;
+    logger.debug('Deleting bookmark ${bookmarkid}');
+    bookmarkStore.removeBookmar(innerId, songId);
+    response.redirect('/innermarks/' + innerId);
+    
+  },
+  
+  
+  
 };
 
 module.exports = dashboard;
