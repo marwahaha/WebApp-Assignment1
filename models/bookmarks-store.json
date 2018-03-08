@@ -2,7 +2,7 @@
   "BookmarkCollection": [
     {
       "id": "01",
-      "title": "Beethoven Sonatas",
+      "title": "HTML Learning Resources",
       "songs": [
         {
           "id": "04",
@@ -23,7 +23,7 @@
     },
     {
       "id": "02",
-      "title": "Beethoven Concertos",
+      "title": "CSS Learning Resources",
       "songs": [
         {
           "id": "07",
@@ -44,7 +44,7 @@
     },
     {
       "id": "03",
-      "title": "Beethoven Concertos",
+      "title": "Javascript Learning Resources",
       "songs": [
         {
           "id": "10",
