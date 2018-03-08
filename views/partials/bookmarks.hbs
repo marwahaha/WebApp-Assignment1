@@ -6,13 +6,16 @@
     </tr>
   </thead>
   <tbody>
-    {{#each .bookmarksongs}}
+    {{#each bookmarks.songs}}
       <tr>
         <td>
           {{title}}
         </td>
         <td>
           {{artist}}
+        </td>
+         <td>
+          <a href="/playlist/{{../playlist.id}}/deletesong/{{id}}" class="ui tiny red button">Delete Song</a>
         </td>
       </tr>
     {{/each}}

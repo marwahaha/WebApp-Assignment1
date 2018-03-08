@@ -9,6 +9,7 @@ const innermarks = {
     logger.debug('Bookmark id =', innermarksId);
     const viewData = {
       title: 'Bookmark Contents',
+      bookmarks: bookmarkStore.getBookmark(innermarksId),
     };
     response.render('innermarks', viewData);
   },
