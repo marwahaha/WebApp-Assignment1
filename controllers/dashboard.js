@@ -2,7 +2,6 @@
 
 const logger = require('../utils/logger');
 
-
 const sonatas = {
   title: 'Sonatas',
   songs: [
@@ -21,13 +20,12 @@ const sonatas = {
   ],
 };
 
-
 const dashboard = {
   index(request, response) {
     logger.info('dashboard rendering');
     const viewData = {
       title: 'Keiths Bookmarks Dashboard',
-      bokmarks: sonatas,
+      bookmarks: sonatas,
     };
     logger.info('about to render', sonatas);
     response.render('dashboard', viewData);
