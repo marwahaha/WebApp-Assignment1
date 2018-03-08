@@ -6,9 +6,9 @@ const BookmarkCollection = require('../models/bookmarks-store.js');
 const bookmarks = {
   index(request, response) {
     const viewData = {
-      title: 'Bookmarks',
+      title: 'Playlist',
     };
-    response.render('bookmarks', viewData);
+    response.render('playlist', viewData);
   },
 };
 
