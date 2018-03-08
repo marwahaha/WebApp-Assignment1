@@ -8,5 +8,15 @@ BookmarkCollection : require('./bookmarks-store.json').BookmarkCollection,
     return this.BookmarkCllection;
   },
   
+  getBookmark(id){
+    let foundBookmark = null;
+    for(let bookmark of this.BookmarkCollection){
+      if(id==bookmark.id){
+        foundBookmark=bookmark;
+      }
+    }
+    return foundBookmark;
+  },
+};
 
-module.exports = BookmarkCollection;
+module.exports = bookmarkStore;

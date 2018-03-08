@@ -1,16 +1,17 @@
 'use strict';
 
 const logger = require('../utils/logger');
-const BookmarkCollection = require('../models/bookmarks-store.js');
+const bookmarkStore = require('../models/bookmarks-store.js');
 
 const bookmarks = {
   index(request, response) {
     const bookmarksId = request.params.id;
     logger.debug('Bookmarks id = ', bookmarksId);
     const viewData = {
-      title: 'Playlist',
+      title: 'Bookmark Contents',
+      content: bookmarkStore.getBookmark(bookmarksId),
     };
-    response.render('playlist', viewData);
+    response.render('bookmarks', viewData);
   },
 };
 

@@ -1,7 +1,7 @@
 'use strict';
 
 const logger = require('../utils/logger');
-const BookmarkCollection = require('../models/bookmarks-store.js');
+const bookmarkStore = require('../models/bookmarks-store.js');
 
 
 const dashboard = {
@@ -9,9 +9,9 @@ const dashboard = {
     logger.info('dashboard rendering');
     const viewData = {
       title: 'Keiths Bookmarks Dashboard',
-      bookmarks: BookmarkCollection,
+      bookmarks: bookmarkStore.getAllBookmarks(),
     };
-    logger.info('about to render', BookmarkCollection);
+    logger.info('about to render', bookmarkStore.getAllBookmarks());
     response.render('dashboard', viewData);
   },
 };
