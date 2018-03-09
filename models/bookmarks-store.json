@@ -9,21 +9,18 @@
           "id": "04",
           "title": "W3Schools",
           "link": "https://www.w3schools.com/html/",
-          "description": "",
           "image": ""
         },
         {
           "id": "05",
           "title": "Simple guide to HTML",
           "link": "http://www.simplehtmlguide.com/resources.php",
-          "description": "",
           "image": ""
         },
         {
           "id": "06",
          "title": "Code Academy",
           "link": "https://www.codecademy.com/ar/tracks/htmlcss",
-          "description": "",
           "image": ""
         }
       ]
@@ -37,21 +34,18 @@
           "id": "07",
           "title": "Piano Sonata No. 7",
           "link": "Beethoven",
-          "description": "",
           "image": ""
         },
         {
           "id": "08",
           "title": "Piano Sonata No. 7",
           "link": "Beethoven",
-          "description": "",
           "image": ""
         },
         {
           "id": "09",
           "title": "Piano Sonata No. 7",
           "link": "Beethoven",
-          "description": "",
           "image": ""
         }
       ]
@@ -65,21 +59,18 @@
           "id": "10",
           "title": "Piano Sonata No. 7",
           "link": "Beethoven",
-          "description": "",
           "image": ""
         },
         {
           "id": "11",
           "title": "Piano Sonata No. 7",
           "link": "Beethoven",
-          "description": "",
           "image": ""
         },
         {
           "id": "12",
           "title": "Piano Sonata No. 7",
           "link": "Beethoven",
-          "description": "",
           "image": ""
         }
       ]
