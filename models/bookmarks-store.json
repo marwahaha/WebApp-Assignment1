@@ -21,7 +21,7 @@
           "id": "06",
          "title": "Code Academy",
           "link": "https://www.codecademy.com/ar/tracks/htmlcss",
-          "image": ""
+          "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Fcodeacademy.jpg?1520563004818"
         }
       ]
     },
@@ -34,19 +34,19 @@
           "id": "07",
           "title": "Dash",
           "link": "https://dash.generalassemb.ly/",
-          "image": ""
+          "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Fdash.jpg?1520563005532"
         },
         {
           "id": "08",
           "title": "CSS Tricks",
           "link": "https://css-tricks.com/design-resource-sites/",
-          "image": ""
+          "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Ftricks.jpg?1520563002884"
         },
         {
           "id": "09",
           "title": "Treehouse",
           "link": "https://teamtreehouse.com/learn/css",
-          "image": ""
+          "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2FTreehouse.jpg?1520563002821"
         }
       ]
     },
@@ -59,19 +59,19 @@
           "id": "10",
           "title": "Eggheads JS",
           "link": "https://egghead.io/",
-          "image": ""
+          "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Flogoegg.jpg?1520563004198"
         },
         {
           "id": "11",
           "title": "Udemy",
           "link": "https://www.udemy.com/",
-          "image": ""
+          "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Fudemi.jpg?1520563003424"
         },
         {
           "id": "12",
           "title": "Free Code Camp",
           "link": "https://www.freecodecamp.org/",
-          "image": ""
+          "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Fcamp.jpg?1520563004848"
         }
       ]
     }
