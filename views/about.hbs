@@ -7,6 +7,23 @@
     Email -> <a href''>keithmaher12345@gmail.com</a>
   </p>
   
-  <div><iframe frameborder="0" height="400" width="1000" style="border:1" src="https://www.google.com/maps/embed/v1/view?zoom=14&center=52.3558,-7.6903&key=AIzaSyA64wXlu4k65BirI6HEshyN8f6CoCF0p2w"></iframe></div>
+  <div id="map" style="width:400px;height:400px;background:yellow"></div>
+  
+  
+  
+  
   
 </section>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(52.2459, -7.1388),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
