@@ -14,18 +14,16 @@ BookmarkCollection : require('./bookmarks-store.json').BookmarkCollection,
     return _.find(this.BookmarkCollection, {id:id});
   },
   
-  removeInner(id, songId){
+  removeInner(id, tagId){
     const inner = this.getBookmark(id);
-    _.remove(inner.songs, {id:songId});
+    _.remove(inner.innermark, {id:tagId});
   },
   
   removeBookmark(id) {
   _.remove(this.BookmarkCollection, { id: id });
 },
   
-  
-  
-  
+
 };
 
 module.exports = bookmarkStore;
