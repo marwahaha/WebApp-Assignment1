@@ -7,7 +7,7 @@
       "innermark": [
         {
           "id": "04",
-          "title": "W3Schools",
+          "title": "W3 Schools",
           "link": "https://www.w3schools.com/html/",
           "image": ""
         },
@@ -32,14 +32,14 @@
       "innermark": [
         {
           "id": "07",
-          "title": "Piano Sonata No. 7",
-          "link": "Beethoven",
+          "title": "Dash",
+          "link": "https://dash.generalassemb.ly/",
           "image": ""
         },
         {
           "id": "08",
-          "title": "Piano Sonata No. 7",
-          "link": "Beethoven",
+          "title": "CSS Tricks",
+          "link": "https://css-tricks.com/design-resource-sites/",
           "image": ""
         },
         {
