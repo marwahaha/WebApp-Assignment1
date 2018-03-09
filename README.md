@@ -1,6 +1,18 @@
-Welcome to the GLitch Template 1
+Welcome to Keith's Bookmarks V1
 ==============================
 
-A starter project for learning Glitch.
+*  This is a college assignment for Web App Development.
+*  Task -> to create booklists using json file that can be deleted. 
 
-This is an Express.js project, designed to work well with the Glitch development environment. It includes basic express setup, templating, routing and session support.
+## Built With
+
+* [Glitch](https://glitch.com/) - file handeling and code editing. 
+* [Semantic UI](https://semantic-ui.com/) - Design framewok.
+
+## Versioning
+* This is the first version of my assignment
+
+## Author
+
+* **Keith Maher**  - [Keith Maher](https://github.com/keithmaher)
+
