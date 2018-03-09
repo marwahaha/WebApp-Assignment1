@@ -3,11 +3,12 @@
   <section class="ui segment">
       <img src="/images/wireframe/image.png">
       <h2>{{title}}</h2>
-        <a href="{{link}}" class="ui red button">Visit {{title}}</a>
-        <div class="ui red"><a href="/bookmarks/{{../bookmarks.id}}/deleteinnermark/{{id}}"><i class="large icon trash"></i></a>
-        </div>
-      </div>
+    <div class="ui grid">
+      <div class="ten wide column"><a href="{{link}}" class="ui primary button">Visit {{title}}</a></div>
+      <div class="two wide column"><a href="/bookmarks/{{../bookmarks.id}}/deleteinnermark/{{id}}"><i class="large red icon trash"></i></a></div>
+      
+        
     </div>
-  </div>
+    </section>
   {{/each}}
 </div>
