@@ -4,8 +4,12 @@ body{
   background-position: center; 
 }
 
+.mainimg{
+  padding:25px;
+}
+
 #bookimg{
- padding-bottom:20px; 
+ padding-bottom:25px; 
 }
 
 #innerimg{
