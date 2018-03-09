@@ -3,7 +3,7 @@
     {
       "id": "01",
       "title": "HTML Learning Resources",
-      "image":"https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2F1200px-HTML5_logo_and_wordmark.svg.png?1520552253145",
+      "image":"https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Fhtml.png?1520553113158",
       "songs": [
         {
           "id": "04",
@@ -25,7 +25,7 @@
     {
       "id": "02",
       "title": "CSS Learning Resources",
-      "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2FCSS3-Logo.png?1520552253529",
+      "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Fcss.png?1520553113518",
       "songs": [
         {
           "id": "07",
@@ -47,7 +47,7 @@
     {
       "id": "03",
       "title": "Javascript Learning Resources",
-      "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2FBadge_js-strict.svg.png?1520552254021",
+      "image": "https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Fjs.png?1520553401086",
       "songs": [
         {
           "id": "10",
