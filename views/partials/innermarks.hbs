@@ -1,19 +1,10 @@
-<div class="ui divided items">
+<div class="ui horizontal segments">
   {{#each bookmarks.innermark}}
-  <div class="item">
-    <div class="image">
+  <section class="ui segment">
       <img src="/images/wireframe/image.png">
-    </div>
-    <div class="content">
-      <a class="header">{{title}}</a>
-      <div class="meta">
-        <span class="cinema">IFC</span>
-      </div>
-      <div class="description">
-        <p></p>
-      </div>
-      <div class="extra">
-        <div class="ui right floated red"><a href="/bookmarks/{{../bookmarks.id}}/deleteinnermark/{{id}}"><i class="large icon trash"></i></a>
+      <h2>{{title}}</h2>
+        <a href="{{link}}" class="ui red button">Visit {{title}}</a>
+        <div class="ui red"><a href="/bookmarks/{{../bookmarks.id}}/deleteinnermark/{{id}}"><i class="large icon trash"></i></a>
         </div>
       </div>
     </div>
