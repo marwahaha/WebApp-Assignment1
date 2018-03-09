@@ -1,5 +1,7 @@
 body{
-  background-image: url("https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Fback.jpeg?1520563803002");
+  background-image: url("https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Fback.jpeg?1520564265327");
+  background-size: cover;
+  background-position: center; 
 }
 
 #bookimg{
@@ -13,4 +15,8 @@ body{
 #map{
   height: 400px;
   width: 100%;
+}
+
+#returnhome{
+  color:black;
 }
