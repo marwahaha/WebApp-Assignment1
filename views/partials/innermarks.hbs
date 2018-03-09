@@ -7,7 +7,7 @@
     </tr>
   </thead>
   <tbody>
-    {{#each bookmarks.songs}}
+    
       <tr>
         <td>
           
@@ -19,10 +19,10 @@
           <a href="/bookmarks/{{../bookmarks.id}}/deleteinnermark/{{id}}"><i class="large icon trash"></i></a>
         </td>
       </tr>
-    {{/each}}
+   
   </tbody>
 </table> -->
-
+<!-- 
 <div class="ui items">
   <div class="item">
     <div class="ui small image">
@@ -30,52 +30,41 @@
     </div>
     <div class="middle aligned content">
       <div class="header">
-        Content A
+        {{title}}
       </div>
       <div class="description">
         <p></p>
       </div>
       <div class="extra">
         <div class="ui right floated button">
-          Action
+          
         </div>
       </div>
     </div>
   </div>
+</div>
+ -->
+
+
+<div class="ui divided items">
+  {{#each bookmarks.songs}}
   <div class="item">
-    <div class="ui small image">
+    <div class="image">
       <img src="/images/wireframe/image.png">
     </div>
-    <div class="middle aligned content">
-      <div class="header">
-        Content B
+    <div class="content">
+      <a class="header">Watchmen</a>
+      <div class="meta">
+        <span class="cinema">IFC</span>
       </div>
       <div class="description">
         <p></p>
       </div>
       <div class="extra">
-        <div class="ui right floated button">
-          Action
+        <div class="ui right floated red"><a href="/bookmarks/{{../bookmarks.id}}/deleteinnermark/{{id}}"><i class="large icon trash"></i></a>
         </div>
       </div>
     </div>
   </div>
-  <div class="item">
-    <div class="ui small image">
-      <img src="/images/wireframe/image.png">
-    </div>
-    <div class="middle aligned content">
-      <div class="header">
-        Content C
-      </div>
-      <div class="description">
-        <p></p>
-      </div>
-      <div class="extra">
-        <div class="ui right floated button">
-          Action
-        </div>
-      </div>
-    </div>
-  </div>
+  {{/each}}
 </div>
