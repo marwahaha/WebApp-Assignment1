@@ -1,59 +1,11 @@
-<!-- <table class="ui table">
-  <thead>
-    <tr>
-      <th>Song</th>
-      <th>Artist</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    
-      <tr>
-        <td>
-          
-        </td>
-        <td>
-          {{artist}}
-        </td>
-         <td>
-          <a href="/bookmarks/{{../bookmarks.id}}/deleteinnermark/{{id}}"><i class="large icon trash"></i></a>
-        </td>
-      </tr>
-   
-  </tbody>
-</table> -->
-<!-- 
-<div class="ui items">
-  <div class="item">
-    <div class="ui small image">
-      <img src="/images/wireframe/image.png">
-    </div>
-    <div class="middle aligned content">
-      <div class="header">
-        {{title}}
-      </div>
-      <div class="description">
-        <p></p>
-      </div>
-      <div class="extra">
-        <div class="ui right floated button">
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
- -->
-
-
 <div class="ui divided items">
-  {{#each bookmarks.songs}}
+  {{#each bookmarks.innermark}}
   <div class="item">
     <div class="image">
       <img src="/images/wireframe/image.png">
     </div>
     <div class="content">
-      <a class="header">Watchmen</a>
+      <a class="header">{{title}}</a>
       <div class="meta">
         <span class="cinema">IFC</span>
       </div>

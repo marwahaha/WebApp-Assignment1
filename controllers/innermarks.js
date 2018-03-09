@@ -17,7 +17,7 @@ const innermarks = {
       
   deleteinnermark(request, response){
     const innerId= request.params.id;
-    const songId = request.params.songid;
+    const tagId = request.params.songid;
     logger.debug('Deleting song ${songId} from Playlist ${innerId}');
     bookmarkStore.removeInner(innerId, songId);
     response.redirect('/innermarks/' + innerId);
