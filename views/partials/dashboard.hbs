@@ -1,8 +1,21 @@
-<div class="ui horizontal segments">
+
+<h1>
+    Your Bookmarks
+  </h1>
+<div class="ui horizontal segments">   
 {{#each bookmarks}}
-  <section class="ui segment">
-    <a href="/innermarks/{{id}}"><img src="{{image}}" id="bookimg" class="ui centered medium image"></a>
-    <a href="/dashboard/deletebookmark/{{id}}" class="fluid ui icon red button"><i class="large icon trash"></i></a>
+  <section class="ui center aligned middle aligned segment">
+    <h2>
+      {{title}}
+    </h2>
+          <div class="extra content">
+            <div class="ui buttons">
+              <a href="/dashboard/deletebookmark/{{id}}"><button class="ui negative button">Delete</button></a>
+              <div class="or"></div>
+            <a href="/innermark/{{id}}"><button class="ui positive button">Open</button></a>
+            </div>
+  
+          </div>
   </section>
 {{/each}}
   </div>

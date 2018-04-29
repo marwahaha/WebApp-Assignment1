@@ -1,0 +1,20 @@
+{{> RegisterMenu id="signup"}}
+
+  <div class="login ui segment form">
+	<h1>Register</h1>
+    <form action="/register" method="POST">
+    	<div class="field">
+      <input placeholder="Your First Name" type="text" name="firstName" autofocus required>
+      </div>
+        <div class="field">
+        <input placeholder="Your Last Name" type="text"  name="lastName" required>
+      </div>
+      <div class="field">
+          <input placeholder="Your Email" type="text" name="email" required>
+      </div>
+      <div class="field">
+        <input placeholder="your Password "type="password" name="password" required>
+      </div>
+        <button type="submit" class="ui fluid blue button">Register</button>
+    </form>
+  </div>

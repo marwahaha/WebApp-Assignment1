@@ -1,0 +1,45 @@
+<div class="ui segment">
+<div class="ui comments">
+  <h3 class="ui dividing header">Comments</h3>
+  {{#each comments}}
+  <div class="comment">
+    <a class="avatar">
+      <img src="https://cdn.glitch.com/1730f669-221e-4810-b719-0fb0130bc4d0%2Favatar-placeholder-generic.png?1524960299221">
+    </a>
+    <div class="content">
+      <a class="author">{{commentName}}</a>
+      <div class="metadata">
+        <span class="date">{{commentTime}}</span>
+      </div>
+      <div class="text">
+        {{commentText}}
+      </div>
+    </div>
+  </div>
+  {{/each}}
+  </div>
+  
+ 
+<form class="ui segment form" action="/addcomment" method="POST">
+  <div class="field">
+    <label>Add A Comment</label>
+  </div>
+    <div class="field">
+      <textarea placeholder="Your comment....." type="text" name="comment" required></textarea>
+    </div>
+    <button class="ui blue submit button">
+      <i class="icon edit"></i> Add Comment
+    </button>
+  </form>
+</div>
+
+
+<!-- <form class="ui segment form" action="/addcomment" method="POST">
+  <label>Please Write Your Message Here....</label>
+  <input placeholder="Your Name" type="text" name="name" autofocus required>
+  <textarea type="text" name="comment"></textarea>
+  <button class="ui blue submit button">
+    Add Comment
+  </button>
+</form>
+</div> -->
