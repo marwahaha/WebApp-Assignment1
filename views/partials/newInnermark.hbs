@@ -1,0 +1,13 @@
+<form class="ui segment form" action="/innermark/{{innermark.id}}/addinnermark" method="POST" enctype="multipart/form-data">
+  <div class="field">
+    <label>Add A Bookmark</label>
+    <input placeholder="Bookmark" type="text" name="title" autofocus required>
+  </div>
+  <div class="field">
+    <input placeholder="Link" type="text" name="link" required>
+  </div>
+<!--   <div class="field">
+            <input type="file" name="picture" required></input>
+          </div> -->
+  <button class="ui ui green submit button">Add A Bookmark</button>
+</form>

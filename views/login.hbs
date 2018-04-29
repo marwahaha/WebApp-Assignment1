@@ -1,0 +1,15 @@
+{{> RegisterMenu id='login' }}
+
+
+  <div class="login ui segment form">
+	<h1>Please Login</h1>
+    <form action="/authenticate" method="POST">
+    	<div class="field">
+      <input type="text" name="email" placeholder="Your Email" required="required" />
+      </div>
+      <div class="field">
+        <input type="password" name="password" placeholder="Younr Password" required="required" />
+      </div>
+        <button type="submit" class="ui fluid blue button">Login</button>
+    </form>
+  </div>

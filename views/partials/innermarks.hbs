@@ -1,14 +1,18 @@
 <div class="ui horizontal segments">
-  {{#each bookmarks.innermark}}
-  <section class="ui segment">
-      <img id="innerimg" class="ui medium image" src="{{image}}">
-      <h2>{{title}}</h2>
-    <div class="ui grid">
-      <div class="fourteen wide column"><a href="{{link}}" target="_blank" class="ui primary button">Visit {{title}}</a></div>
-      <div class="two wide column center aligned middle aligned"><a href="/bookmarks/{{../bookmarks.id}}/deleteinnermark/{{id}}"><i class="large red icon trash"></i></a></div>
-      
-        
-    </div>
+  {{#each innermark.innermark}}
+  <section class="ui center aligned middle aligned segment">
+    <h2>{{title}}</h2>
+  <img class="ui medium centered rounded image" id="innerimg" src={{picture}}>
+    <br>
+    
+    <div class="extra content">
+            <div class="ui buttons">
+              <a href="/innermark/{{../innermark.id}}/deleteinnermark/{{id}}"><button class="ui negative button">Delete Link</button></a>
+              <div class="or"></div>
+            <a href="{{link}}" target="_blank" ><button class="ui positive button">Visit Link</button></a>
+      </div>
+  </div>
+
     </section>
   {{/each}}
 </div>
